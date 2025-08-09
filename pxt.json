@@ -1,8 +1,8 @@
 {
-    "name": "V7RC",
+    "name": "myExtension1",
     "version": "0.0.1",
-    "description": "這是專為micro:bit提供的V7RC藍芽控制積木",
-    "license": "MIT",
+    "description": "My Testing Extension",
+    "license": "None",
     "dependencies": {
         "core": "*",
         "bluetooth": "*"
@@ -12,17 +12,5 @@
         "main.ts",
         "_locales/zh/V7RC-strings.json"
     ],
-    "yotta": {
-        "config": {
-            "microbit-dal": {
-                "bluetooth": {
-                    "open": 1,
-                    "whitelist": 0,
-                    "security_level": null,
-                    "event_service": 0
-                }
-            }
-        }
-    },
     "public": true
 }
