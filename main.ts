@@ -16,7 +16,9 @@ namespace V7RC {
         //% block="LED1~4"
         type03 = 3,
         //% block="LED5~8"
-        type04 = 4
+        type04 = 4，
+        //% block="MyBlock 5"
+        type05 = 5
     }
 
     export enum channel {
@@ -114,5 +116,6 @@ namespace V7RC {
         return recvMsg.substr(myChannel * 4 + 3, 4);
     }
 }
+
 
 
