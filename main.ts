@@ -20,18 +20,20 @@ namespace V7RC {
     }
 
     export enum channel {
-        //% block="1"
+        //% block="j1"
         channel01 = 0,
-        //% block="2"
+        //% block="k2"
         channel02 = 1,
-        //% block="3"
+        //% block="L3"
         channel03 = 2,
-        //% block="4"
-        channel04 = 3
+        //% block="M4"
+        channel04 = 3,
+        //% block="AK47"
+        channel05 = 47
     }
 
     //% weight=90
-    //% blockId="v7rcOnConnectedEvent" block="on V7RC connected"
+    //% blockId="v7rcOnConnectedEvent-jack" block="on V7RC connected jack"
     export function v7rcOnConnectedEvent(tempAct: Action) {
         bluetooth.onBluetoothConnected(tempAct);
     }
@@ -112,4 +114,5 @@ namespace V7RC {
         return recvMsg.substr(myChannel * 4 + 3, 4);
     }
 }
+
 
