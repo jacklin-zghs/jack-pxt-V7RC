@@ -1,6 +1,6 @@
 # V7RC
 
-這是專為micro:bit提供的V7RC藍芽控制積木
+Testing micro:bit提供的V7RC  藍芽控制積木
 
 
 ## Supported targets
