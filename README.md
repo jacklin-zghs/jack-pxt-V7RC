@@ -1,6 +1,8 @@
-# V7RC
+# 我的測試
 
-Testing micro:bit提供的V7RC  藍芽控制積木
+
+Testing micro:bit提供的 測試 擴展
+
 
 
 ## Supported targets
@@ -11,5 +13,4 @@ Testing micro:bit提供的V7RC  藍芽控制積木
 ```package
 V7RC=https://github.com/jacklin-zghs/jack-pxt-V7RC
 
-## github:lioujj/pxt-V7RC
 ```
