@@ -15,7 +15,7 @@ namespace V7RC {
         type02 = 2,
         //% block="LED1~4"
         type03 = 3,
-        //% block="LED5~8"
+        //% block="dadaLED5~8"
         type04 = 4，
         //% block="MyBlock 5"
         type05 = 5
@@ -116,6 +116,7 @@ namespace V7RC {
         return recvMsg.substr(myChannel * 4 + 3, 4);
     }
 }
+
 
 
 
