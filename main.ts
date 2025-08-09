@@ -11,7 +11,7 @@ namespace V7RC {
     export enum commandType {
         //% block="car"
         type01 = 1,
-        //% block="tank"
+        //% block="jacktank"
         type02 = 2,
         //% block="LED1~4"
         type03 = 3,
@@ -112,3 +112,4 @@ namespace V7RC {
         return recvMsg.substr(myChannel * 4 + 3, 4);
     }
 }
+
