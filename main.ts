@@ -1,8 +1,8 @@
 /**
-* V7RC藍芽讀取積木
+* Jack 藍芽讀取積木
 */
-//% weight=0 color="#db2a94" icon="\uf09e" block="V7RC" blockId="V7RC"
-namespace V7RC {
+//% weight=0 color="#db2a94" icon="\uf09f" block="MyExtend" blockId="myExtend1"
+namespace myExtension1 {
     let recvMsg = '';
     let currentType = '';
     bluetooth.setTransmitPower(7);
@@ -116,6 +116,7 @@ namespace V7RC {
         return recvMsg.substr(myChannel * 4 + 3, 4);
     }
 }
+
 
 
 
