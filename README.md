@@ -11,6 +11,6 @@ Testing micro:bit提供的 測試 擴展
 (The metadata above is needed for package search.)
 
 ```package
-V7RC=https://github.com/jacklin-zghs/jack-pxt-V7RC
+myExtension=github.com/jacklin-zghs/jack-pxt-V7RC
 
 ```
