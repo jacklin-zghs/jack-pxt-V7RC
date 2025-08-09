@@ -16,7 +16,7 @@ namespace myExtension1 {
         //% block="LED1~4"
         type03 = 3,
         //% block="dadaLED5~8"
-        type04 = 4，
+        type04 = 4,
         //% block="MyBlock 5"
         type05 = 5
     }
@@ -116,6 +116,7 @@ namespace myExtension1 {
         return recvMsg.substr(myChannel * 4 + 3, 4);
     }
 }
+
 
 
 
